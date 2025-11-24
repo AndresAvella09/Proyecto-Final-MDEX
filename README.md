@@ -16,8 +16,3 @@ Instrucciones rápidas:
 git remote add origin <URL_DEL_REPO>
 git push -u origin main
 ```
-
-Si necesitas que cree el repo remoto y haga el push por ti, dime tu preferencia (crear en la web o usar `gh`).
-
----
-Hecho con ♥ por el asistente.
