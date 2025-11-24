@@ -137,16 +137,15 @@ if df is not None:
 
     # Tabs para diferentes tipos de gráficas
     tab1, tab2, tab3, tab4 = st.tabs([
-        "Boxplot", "Histogramas", "Strip Plot", "Violin Plot"
+        "Violin Plot", "Histogramas", "Strip Plot", "Boxplot"
     ])
 
     with tab1:
-        st.subheader("Distribución del Peso por Tratamiento")
-        fig, ax = plt.subplots(figsize=(10, 6))
-        sns.boxplot(x='Tratamiento', y='Peso_g', data=df_filtrado, ax=ax)
-        plt.xticks(rotation=45, ha='right')
-        plt.tight_layout()
-        st.pyplot(fig)
+        st.subheader("Violin Plot Interactivo")
+        fig = px.violin(df_filtrado, x="Tratamiento", y="Peso_g", 
+                       color="Tratamiento", box=True, points="all",
+                       title="Distribución de Peso por Tratamiento")
+        st.plotly_chart(fig, use_container_width=True)
 
     with tab2:
         st.subheader("Histogramas por Tratamiento")
@@ -184,11 +183,13 @@ if df is not None:
         st.pyplot(fig)
 
     with tab4:
-        st.subheader("Violin Plot Interactivo")
-        fig = px.violin(df_filtrado, x="Tratamiento", y="Peso_g", 
-                       color="Tratamiento", box=True, points="all",
-                       title="Distribución de Peso por Tratamiento")
-        st.plotly_chart(fig, use_container_width=True)
+        st.subheader("Distribución del Peso por Tratamiento")
+        fig, ax = plt.subplots(figsize=(10, 6))
+        sns.boxplot(x='Tratamiento', y='Peso_g', data=df_filtrado, ax=ax)
+        plt.xticks(rotation=45, ha='right')
+        plt.tight_layout()
+        st.pyplot(fig)
+
 
     # ===== SECCIÓN 5: ESTADÍSTICAS POR TRATAMIENTO =====
     st.header("📋 Estadísticas Detalladas por Tratamiento")
@@ -196,7 +197,170 @@ if df is not None:
     stats_tratamiento = df_filtrado.groupby('Tratamiento')['Peso_g'].describe()
     st.dataframe(stats_tratamiento, use_container_width=True)
 
-    # ===== SECCIÓN 6: DATOS CRUDOS =====
+    # ===== SECCIÓN 6: INFERENCIA =====
+
+    # Función para formatear valores p
+    def format_p_value(p_value):
+        if p_value < 0.0001:
+            return f"{p_value:.2e}"
+        elif p_value < 0.001:
+            return f"{p_value:.6f}"
+        else:
+            return f"{p_value:.4f}"
+
+
+    st.header("📈 Análisis Estadístico Inferencial")
+
+    # Verificar que hay suficientes datos para ANOVA
+    if len(df_filtrado['Tratamiento'].unique()) < 2:
+        st.warning("Se necesitan al menos 2 tratamientos para realizar ANOVA")
+    else:
+        # Definir nivel_significancia aquí para asegurar que esté disponible
+        nivel_significancia = st.sidebar.slider(
+            "Nivel de significancia (α):",
+            min_value=0.01,
+            max_value=0.10,
+            value=0.05,
+            step=0.01,
+            help="Nivel de significancia para las pruebas estadísticas"
+        )
+        
+        # ANOVA
+        st.subheader("🔬 ANOVA - Análisis de Varianza")
+
+        with st.spinner("Calculando ANOVA..."):
+            try:
+                # ANOVA table
+                modelo = ols('Peso_g ~ C(Tratamiento)', data=df_filtrado).fit()
+                anova_tabla = sm.stats.anova_lm(modelo, typ=2)
+                
+                # Guardar todos los resultados del ANOVA en variables
+                suma_cuadrados_tratamiento = anova_tabla['sum_sq']['C(Tratamiento)']
+                grados_libertad_tratamiento = anova_tabla['df']['C(Tratamiento)']
+                
+                # Calcular cuadrados medios manualmente si no están en la tabla
+                if 'mean_sq' in anova_tabla.columns:
+                    cuadrado_medio_tratamiento = anova_tabla['mean_sq']['C(Tratamiento)']
+                    cuadrado_medio_residual = anova_tabla['mean_sq']['Residual']
+                else:
+                    # Calcular manualmente: CM = SC / gl
+                    cuadrado_medio_tratamiento = suma_cuadrados_tratamiento / grados_libertad_tratamiento
+                    suma_cuadrados_residual = anova_tabla['sum_sq']['Residual']
+                    grados_libertad_residual = anova_tabla['df']['Residual']
+                    cuadrado_medio_residual = suma_cuadrados_residual / grados_libertad_residual
+                
+                valor_F = anova_tabla['F']['C(Tratamiento)']
+                p_valor = anova_tabla['PR(>F)']['C(Tratamiento)']
+                
+                # Asegurarnos de tener estos valores definidos
+                if 'suma_cuadrados_residual' not in locals():
+                    suma_cuadrados_residual = anova_tabla['sum_sq']['Residual']
+                if 'grados_libertad_residual' not in locals():
+                    grados_libertad_residual = anova_tabla['df']['Residual']
+                
+                # Mostrar tabla ANOVA
+                st.write("**Tabla ANOVA:**")
+                
+                # Crear una copia de la tabla para formatear
+                anova_formateada = anova_tabla.copy()
+                
+                # Si no existe la columna mean_sq, agregarla
+                if 'mean_sq' not in anova_formateada.columns:
+                    anova_formateada['mean_sq'] = anova_formateada['sum_sq'] / anova_formateada['df']
+                
+                # Formatear la columna de valor p
+                if 'PR(>F)' in anova_formateada.columns:
+                    anova_formateada['PR(>F)'] = anova_formateada['PR(>F)'].apply(format_p_value)
+                
+                st.dataframe(anova_formateada.style.format({
+                    'sum_sq': '{:.4f}',
+                    'df': '{:.0f}',
+                    'mean_sq': '{:.4f}',
+                    'F': '{:.4f}'
+                }), use_container_width=True)
+                
+                # Mostrar resultados clave del ANOVA
+                st.write("**Resultados clave del ANOVA:**")
+                col1, col2, col3, col4 = st.columns(4)
+                
+                with col1:
+                    st.metric("Valor F", f"{valor_F:.4f}")
+                
+                with col2:
+                    p_valor_formateado = format_p_value(p_valor)
+                    st.metric("Valor p", p_valor_formateado)
+                
+                with col3:
+                    st.metric("G.L. Tratamiento", f"{grados_libertad_tratamiento:.0f}")
+                
+                with col4:
+                    st.metric("G.L. Residual", f"{grados_libertad_residual:.0f}")
+                
+                # Interpretación del resultado ANOVA
+                if p_valor < nivel_significancia:
+                    st.success(f"✅ **Resultado significativo**: Existen diferencias significativas entre los tratamientos (p < {nivel_significancia})")
+                else:
+                    st.info(f"🔍 **Resultado no significativo**: No hay evidencia suficiente de diferencias entre tratamientos (p ≥ {nivel_significancia})")
+                
+            except Exception as e:
+                st.error(f"Error en el cálculo de ANOVA: {str(e)}")
+                
+        # Pruebas post-hoc Tukey HSD
+        st.subheader("📊 Comparaciones Múltiples (Tukey HSD)")
+        
+        with st.spinner("Realizando comparaciones post-hoc..."):
+            try:
+                tukey_resultado = pairwise_tukeyhsd(
+                    endog=df_filtrado['Peso_g'], 
+                    groups=df_filtrado['Tratamiento'], 
+                    alpha=nivel_significancia
+                )
+                
+                # Mostrar resultados en tabla
+                st.write("**Resultados de Tukey HSD:**")
+                
+                # Convertir a DataFrame para mejor visualización
+                tukey_df = pd.DataFrame(
+                    data=tukey_resultado._results_table.data[1:],
+                    columns=tukey_resultado._results_table.data[0]
+                )
+                
+                # Formatear valores p en notación científica si son muy pequeños
+                tukey_df['p-adj'] = tukey_df['p-adj'].apply(lambda x: format_p_value(x))
+                
+                st.dataframe(tukey_df.style.format({
+                    'group1': '{}',
+                    'group2': '{}',
+                    'meandiff': '{:.4f}',
+                    'lower': '{:.4f}',
+                    'upper': '{:.4f}',
+                    'reject': '{}'
+                }), use_container_width=True)
+                
+                # Visualización de los resultados de Tukey
+                st.write("**Gráfico de comparaciones de Tukey:**")
+                fig_tukey, ax = plt.subplots(figsize=(10, 6))
+                tukey_resultado.plot_simultaneous(ax=ax)
+                plt.title('Comparaciones Múltiples - Tukey HSD')
+                plt.tight_layout()
+                st.pyplot(fig_tukey)
+                
+                # Resumen de comparaciones significativas
+                st.write("**Resumen de comparaciones significativas:**")
+                # Convertir 'reject' a booleano para la comparación
+                comparaciones_sig = tukey_df[tukey_df['reject'].astype(bool)]
+                if len(comparaciones_sig) > 0:
+                    for _, row in comparaciones_sig.iterrows():
+                        st.write(f"- **{row['group1']} vs {row['group2']}**: "
+                            f"Diferencia = {row['meandiff']:.2f}g, "
+                            f"p = {row['p-adj']}")
+                else:
+                    st.write("No se encontraron diferencias significativas entre los pares de tratamientos.")
+                    
+            except Exception as e:
+                st.error(f"Error en el cálculo de Tukey HSD: {str(e)}")
+
+    # ===== SECCIÓN 7: DATOS CRUDOS =====
     with st.expander("🔢 Ver Datos Crudos"):
         st.dataframe(df_filtrado, use_container_width=True)
 
@@ -208,6 +372,11 @@ if df is not None:
             file_name="datos_aguacate_filtrados.csv",
             mime="text/csv"
         )
+
+    
+
+
+
 
 else:
     # Mensaje inicial cuando no hay datos
