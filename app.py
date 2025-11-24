@@ -21,27 +21,24 @@ st.set_page_config(
 st.title("Análisis Exploratorio - Datos de Aguacate")
 st.markdown("---")
 
-# Función para cargar datos
+# Función para cargar datos desde bytes (no contiene widgets)
 @st.cache_data
-def load_data():
-    # En Streamlit Cloud necesitarás subir el archivo
-    # Puedes usar st.file_uploader para cargar archivos
+def load_data(file_bytes):
+    if file_bytes is None:
+        return None
     try:
-        # Intentar cargar desde datos subidos
-        uploaded_file = st.file_uploader("Sube tu archivo CSV", type="csv")
-        if uploaded_file is not None:
-            df = pd.read_csv(uploaded_file)
-            return df
-        else:
-            st.info("Por favor sube un archivo CSV para comenzar el análisis")
-            return None
+        return pd.read_csv(io.BytesIO(file_bytes))
     except Exception:
-        st.error("Error al cargar los datos. Por favor verifica el archivo.")
+        st.error("Error al parsear el CSV. Verifica el formato del archivo.")
         return None
 
 
+# Widget para subir archivo (fuera de la función cacheada)
+uploaded_file = st.file_uploader("Sube tu archivo CSV", type="csv")
+file_bytes = uploaded_file.read() if uploaded_file is not None else None
+
 # Cargar datos
-df = load_data()
+df = load_data(file_bytes)
 
 if df is not None:
     # Sidebar para controles
