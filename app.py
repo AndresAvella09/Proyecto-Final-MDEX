@@ -8,7 +8,6 @@ import statsmodels.api as sm
 from statsmodels.formula.api import ols
 import plotly.express as px
 import streamlit as st
-import io
 
 # Configuración de la página
 st.set_page_config(
@@ -21,24 +20,18 @@ st.set_page_config(
 st.title("Análisis Exploratorio - Datos de Aguacate")
 st.markdown("---")
 
-# Función para cargar datos desde bytes (no contiene widgets)
-@st.cache_data
-def load_data(file_bytes):
-    if file_bytes is None:
-        return None
-    try:
-        return pd.read_csv(io.BytesIO(file_bytes))
-    except Exception:
-        st.error("Error al parsear el CSV. Verifica el formato del archivo.")
-        return None
-
-
-# Widget para subir archivo (fuera de la función cacheada)
+# Widget para subir archivo (el usuario sube directamente el CSV)
 uploaded_file = st.file_uploader("Sube tu archivo CSV", type="csv")
-file_bytes = uploaded_file.read() if uploaded_file is not None else None
 
-# Cargar datos
-df = load_data(file_bytes)
+# Leer el CSV sólo cuando el usuario lo sube
+if uploaded_file is not None:
+    try:
+        df = pd.read_csv(uploaded_file)
+    except Exception:
+        st.error("Error al leer el CSV. Verifica el formato y la codificación del archivo.")
+        df = None
+else:
+    df = None
 
 if df is not None:
     # Sidebar para controles
