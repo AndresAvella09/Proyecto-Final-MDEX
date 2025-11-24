@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+.vscode/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+/.mypy_cache/
+
+# Environment files
+.env
+
+# OS
+Thumbs.db
+Desktop.ini

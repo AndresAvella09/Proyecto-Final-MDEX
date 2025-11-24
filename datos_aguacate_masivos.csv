@@ -1,0 +1,1001 @@
+Tratamiento,Arbol_ID,Fruta_ID,Peso_g
+Control,Arbol_001,1,204.68
+Control,Arbol_001,2,184.95
+Control,Arbol_001,3,192.19
+Control,Arbol_001,4,195.77
+Control,Arbol_001,5,190.98
+Control,Arbol_002,1,167.63
+Control,Arbol_002,2,170.98
+Control,Arbol_002,3,168.32
+Control,Arbol_002,4,159.46
+Control,Arbol_002,5,176.81
+Control,Arbol_003,1,203.15
+Control,Arbol_003,2,208.27
+Control,Arbol_003,3,201.25
+Control,Arbol_003,4,198.88
+Control,Arbol_003,5,202.51
+Control,Arbol_004,1,196.12
+Control,Arbol_004,2,202.62
+Control,Arbol_004,3,200.77
+Control,Arbol_004,4,202.48
+Control,Arbol_004,5,200.42
+Control,Arbol_005,1,207.44
+Control,Arbol_005,2,203.4
+Control,Arbol_005,3,205.5
+Control,Arbol_005,4,196.64
+Control,Arbol_005,5,202.39
+Control,Arbol_006,1,186.41
+Control,Arbol_006,2,190.12
+Control,Arbol_006,3,193.19
+Control,Arbol_006,4,191.37
+Control,Arbol_006,5,191.45
+Control,Arbol_007,1,181.53
+Control,Arbol_007,2,179.27
+Control,Arbol_007,3,194.9
+Control,Arbol_007,4,176.74
+Control,Arbol_007,5,174.62
+Control,Arbol_008,1,214.08
+Control,Arbol_008,2,208.8
+Control,Arbol_008,3,212.06
+Control,Arbol_008,4,219.21
+Control,Arbol_008,5,212.35
+Control,Arbol_009,1,195.26
+Control,Arbol_009,2,194.14
+Control,Arbol_009,3,188.44
+Control,Arbol_009,4,191.16
+Control,Arbol_009,5,191.92
+Control,Arbol_010,1,178.44
+Control,Arbol_010,2,181.85
+Control,Arbol_010,3,179.46
+Control,Arbol_010,4,177.75
+Control,Arbol_010,5,191.92
+Control,Arbol_011,1,196.95
+Control,Arbol_011,2,193.77
+Control,Arbol_011,3,204.04
+Control,Arbol_011,4,198.79
+Control,Arbol_011,5,191.05
+Control,Arbol_012,1,166.21
+Control,Arbol_012,2,174.18
+Control,Arbol_012,3,183.36
+Control,Arbol_012,4,191.3
+Control,Arbol_012,5,186.09
+Control,Arbol_013,1,187.27
+Control,Arbol_013,2,196.64
+Control,Arbol_013,3,192.92
+Control,Arbol_013,4,197.34
+Control,Arbol_013,5,202.14
+Control,Arbol_014,1,178.89
+Control,Arbol_014,2,173.27
+Control,Arbol_014,3,160.97
+Control,Arbol_014,4,170.87
+Control,Arbol_014,5,164.05
+Control,Arbol_015,1,191.9
+Control,Arbol_015,2,195.36
+Control,Arbol_015,3,198.75
+Control,Arbol_015,4,198.18
+Control,Arbol_015,5,194.55
+Control,Arbol_016,1,200.69
+Control,Arbol_016,2,192.2
+Control,Arbol_016,3,198.07
+Control,Arbol_016,4,208.05
+Control,Arbol_016,5,203.88
+Control,Arbol_017,1,195.24
+Control,Arbol_017,2,195.28
+Control,Arbol_017,3,192.78
+Control,Arbol_017,4,198.37
+Control,Arbol_017,5,192.3
+Control,Arbol_018,1,179.23
+Control,Arbol_018,2,191.74
+Control,Arbol_018,3,190.95
+Control,Arbol_018,4,200.63
+Control,Arbol_018,5,181.39
+Control,Arbol_019,1,174.13
+Control,Arbol_019,2,176.72
+Control,Arbol_019,3,181.59
+Control,Arbol_019,4,163.53
+Control,Arbol_019,5,173.44
+Control,Arbol_020,1,204.0
+Control,Arbol_020,2,215.57
+Control,Arbol_020,3,199.82
+Control,Arbol_020,4,208.06
+Control,Arbol_020,5,199.43
+Control,Arbol_021,1,204.26
+Control,Arbol_021,2,201.31
+Control,Arbol_021,3,206.21
+Control,Arbol_021,4,207.64
+Control,Arbol_021,5,205.96
+Control,Arbol_022,1,205.02
+Control,Arbol_022,2,210.14
+Control,Arbol_022,3,210.8
+Control,Arbol_022,4,216.44
+Control,Arbol_022,5,219.14
+Control,Arbol_023,1,203.3
+Control,Arbol_023,2,191.12
+Control,Arbol_023,3,193.05
+Control,Arbol_023,4,198.02
+Control,Arbol_023,5,195.5
+Control,Arbol_024,1,195.82
+Control,Arbol_024,2,184.47
+Control,Arbol_024,3,194.93
+Control,Arbol_024,4,195.35
+Control,Arbol_024,5,187.28
+Control,Arbol_025,1,181.6
+Control,Arbol_025,2,183.29
+Control,Arbol_025,3,187.68
+Control,Arbol_025,4,195.27
+Control,Arbol_025,5,185.73
+Control,Arbol_026,1,168.74
+Control,Arbol_026,2,160.65
+Control,Arbol_026,3,164.39
+Control,Arbol_026,4,158.77
+Control,Arbol_026,5,156.3
+Control,Arbol_027,1,208.14
+Control,Arbol_027,2,201.94
+Control,Arbol_027,3,201.21
+Control,Arbol_027,4,205.76
+Control,Arbol_027,5,215.05
+Control,Arbol_028,1,189.9
+Control,Arbol_028,2,186.12
+Control,Arbol_028,3,187.56
+Control,Arbol_028,4,189.1
+Control,Arbol_028,5,194.73
+Control,Arbol_029,1,193.63
+Control,Arbol_029,2,189.96
+Control,Arbol_029,3,186.0
+Control,Arbol_029,4,198.92
+Control,Arbol_029,5,197.66
+Control,Arbol_030,1,197.64
+Control,Arbol_030,2,194.87
+Control,Arbol_030,3,199.27
+Control,Arbol_030,4,208.35
+Control,Arbol_030,5,206.17
+Control,Arbol_031,1,194.79
+Control,Arbol_031,2,198.31
+Control,Arbol_031,3,184.62
+Control,Arbol_031,4,201.92
+Control,Arbol_031,5,198.65
+Control,Arbol_032,1,202.11
+Control,Arbol_032,2,202.69
+Control,Arbol_032,3,197.34
+Control,Arbol_032,4,186.88
+Control,Arbol_032,5,198.07
+Control,Arbol_033,1,193.23
+Control,Arbol_033,2,198.69
+Control,Arbol_033,3,206.81
+Control,Arbol_033,4,195.93
+Control,Arbol_033,5,203.77
+Control,Arbol_034,1,181.75
+Control,Arbol_034,2,176.87
+Control,Arbol_034,3,175.91
+Control,Arbol_034,4,176.24
+Control,Arbol_034,5,177.53
+Control,Arbol_035,1,183.74
+Control,Arbol_035,2,182.17
+Control,Arbol_035,3,184.3
+Control,Arbol_035,4,172.2
+Control,Arbol_035,5,176.59
+Control,Arbol_036,1,193.45
+Control,Arbol_036,2,173.61
+Control,Arbol_036,3,172.12
+Control,Arbol_036,4,177.05
+Control,Arbol_036,5,169.73
+Control,Arbol_037,1,207.9
+Control,Arbol_037,2,216.31
+Control,Arbol_037,3,209.6
+Control,Arbol_037,4,208.95
+Control,Arbol_037,5,208.72
+Control,Arbol_038,1,182.7
+Control,Arbol_038,2,197.07
+Control,Arbol_038,3,183.59
+Control,Arbol_038,4,199.62
+Control,Arbol_038,5,189.0
+Control,Arbol_039,1,191.71
+Control,Arbol_039,2,188.16
+Control,Arbol_039,3,191.42
+Control,Arbol_039,4,184.96
+Control,Arbol_039,5,189.2
+Control,Arbol_040,1,192.55
+Control,Arbol_040,2,193.28
+Control,Arbol_040,3,205.22
+Control,Arbol_040,4,167.41
+Control,Arbol_040,5,192.38
+Control,Arbol_041,1,172.94
+Control,Arbol_041,2,169.43
+Control,Arbol_041,3,180.07
+Control,Arbol_041,4,167.09
+Control,Arbol_041,5,174.8
+Control,Arbol_042,1,197.34
+Control,Arbol_042,2,207.93
+Control,Arbol_042,3,200.56
+Control,Arbol_042,4,200.87
+Control,Arbol_042,5,202.02
+Control,Arbol_043,1,178.13
+Control,Arbol_043,2,185.92
+Control,Arbol_043,3,189.07
+Control,Arbol_043,4,186.94
+Control,Arbol_043,5,184.5
+Control,Arbol_044,1,157.29
+Control,Arbol_044,2,174.69
+Control,Arbol_044,3,164.72
+Control,Arbol_044,4,170.45
+Control,Arbol_044,5,158.34
+Control,Arbol_045,1,175.26
+Control,Arbol_045,2,175.14
+Control,Arbol_045,3,166.87
+Control,Arbol_045,4,173.15
+Control,Arbol_045,5,172.4
+Control,Arbol_046,1,204.81
+Control,Arbol_046,2,213.21
+Control,Arbol_046,3,217.05
+Control,Arbol_046,4,186.33
+Control,Arbol_046,5,205.22
+Control,Arbol_047,1,182.66
+Control,Arbol_047,2,183.08
+Control,Arbol_047,3,179.68
+Control,Arbol_047,4,187.08
+Control,Arbol_047,5,192.93
+Control,Arbol_048,1,198.57
+Control,Arbol_048,2,210.0
+Control,Arbol_048,3,202.75
+Control,Arbol_048,4,196.47
+Control,Arbol_048,5,197.15
+Control,Arbol_049,1,202.98
+Control,Arbol_049,2,198.82
+Control,Arbol_049,3,191.67
+Control,Arbol_049,4,185.2
+Control,Arbol_049,5,196.36
+Control,Arbol_050,1,173.74
+Control,Arbol_050,2,173.44
+Control,Arbol_050,3,178.73
+Control,Arbol_050,4,174.76
+Control,Arbol_050,5,172.92
+Bio-A (Aminoacidos),Arbol_051,1,193.38
+Bio-A (Aminoacidos),Arbol_051,2,170.49
+Bio-A (Aminoacidos),Arbol_051,3,179.11
+Bio-A (Aminoacidos),Arbol_051,4,170.6
+Bio-A (Aminoacidos),Arbol_051,5,182.48
+Bio-A (Aminoacidos),Arbol_052,1,198.18
+Bio-A (Aminoacidos),Arbol_052,2,185.56
+Bio-A (Aminoacidos),Arbol_052,3,206.41
+Bio-A (Aminoacidos),Arbol_052,4,197.07
+Bio-A (Aminoacidos),Arbol_052,5,203.01
+Bio-A (Aminoacidos),Arbol_053,1,219.27
+Bio-A (Aminoacidos),Arbol_053,2,211.46
+Bio-A (Aminoacidos),Arbol_053,3,207.2
+Bio-A (Aminoacidos),Arbol_053,4,209.09
+Bio-A (Aminoacidos),Arbol_053,5,200.14
+Bio-A (Aminoacidos),Arbol_054,1,187.81
+Bio-A (Aminoacidos),Arbol_054,2,177.88
+Bio-A (Aminoacidos),Arbol_054,3,178.0
+Bio-A (Aminoacidos),Arbol_054,4,181.0
+Bio-A (Aminoacidos),Arbol_054,5,173.65
+Bio-A (Aminoacidos),Arbol_055,1,207.93
+Bio-A (Aminoacidos),Arbol_055,2,200.38
+Bio-A (Aminoacidos),Arbol_055,3,192.92
+Bio-A (Aminoacidos),Arbol_055,4,205.31
+Bio-A (Aminoacidos),Arbol_055,5,206.28
+Bio-A (Aminoacidos),Arbol_056,1,212.77
+Bio-A (Aminoacidos),Arbol_056,2,215.46
+Bio-A (Aminoacidos),Arbol_056,3,215.45
+Bio-A (Aminoacidos),Arbol_056,4,218.63
+Bio-A (Aminoacidos),Arbol_056,5,216.47
+Bio-A (Aminoacidos),Arbol_057,1,195.38
+Bio-A (Aminoacidos),Arbol_057,2,213.98
+Bio-A (Aminoacidos),Arbol_057,3,199.08
+Bio-A (Aminoacidos),Arbol_057,4,196.43
+Bio-A (Aminoacidos),Arbol_057,5,210.13
+Bio-A (Aminoacidos),Arbol_058,1,170.84
+Bio-A (Aminoacidos),Arbol_058,2,177.81
+Bio-A (Aminoacidos),Arbol_058,3,179.66
+Bio-A (Aminoacidos),Arbol_058,4,180.44
+Bio-A (Aminoacidos),Arbol_058,5,180.8
+Bio-A (Aminoacidos),Arbol_059,1,200.86
+Bio-A (Aminoacidos),Arbol_059,2,182.48
+Bio-A (Aminoacidos),Arbol_059,3,198.51
+Bio-A (Aminoacidos),Arbol_059,4,195.16
+Bio-A (Aminoacidos),Arbol_059,5,198.9
+Bio-A (Aminoacidos),Arbol_060,1,194.42
+Bio-A (Aminoacidos),Arbol_060,2,195.92
+Bio-A (Aminoacidos),Arbol_060,3,192.9
+Bio-A (Aminoacidos),Arbol_060,4,198.59
+Bio-A (Aminoacidos),Arbol_060,5,189.83
+Bio-A (Aminoacidos),Arbol_061,1,205.68
+Bio-A (Aminoacidos),Arbol_061,2,187.91
+Bio-A (Aminoacidos),Arbol_061,3,186.8
+Bio-A (Aminoacidos),Arbol_061,4,192.11
+Bio-A (Aminoacidos),Arbol_061,5,195.16
+Bio-A (Aminoacidos),Arbol_062,1,175.78
+Bio-A (Aminoacidos),Arbol_062,2,198.57
+Bio-A (Aminoacidos),Arbol_062,3,183.2
+Bio-A (Aminoacidos),Arbol_062,4,180.47
+Bio-A (Aminoacidos),Arbol_062,5,190.2
+Bio-A (Aminoacidos),Arbol_063,1,186.68
+Bio-A (Aminoacidos),Arbol_063,2,177.88
+Bio-A (Aminoacidos),Arbol_063,3,183.59
+Bio-A (Aminoacidos),Arbol_063,4,172.49
+Bio-A (Aminoacidos),Arbol_063,5,190.78
+Bio-A (Aminoacidos),Arbol_064,1,197.43
+Bio-A (Aminoacidos),Arbol_064,2,205.67
+Bio-A (Aminoacidos),Arbol_064,3,207.34
+Bio-A (Aminoacidos),Arbol_064,4,202.79
+Bio-A (Aminoacidos),Arbol_064,5,196.61
+Bio-A (Aminoacidos),Arbol_065,1,198.56
+Bio-A (Aminoacidos),Arbol_065,2,201.09
+Bio-A (Aminoacidos),Arbol_065,3,197.33
+Bio-A (Aminoacidos),Arbol_065,4,202.63
+Bio-A (Aminoacidos),Arbol_065,5,203.47
+Bio-A (Aminoacidos),Arbol_066,1,204.43
+Bio-A (Aminoacidos),Arbol_066,2,205.94
+Bio-A (Aminoacidos),Arbol_066,3,198.19
+Bio-A (Aminoacidos),Arbol_066,4,203.06
+Bio-A (Aminoacidos),Arbol_066,5,192.31
+Bio-A (Aminoacidos),Arbol_067,1,199.1
+Bio-A (Aminoacidos),Arbol_067,2,204.56
+Bio-A (Aminoacidos),Arbol_067,3,206.77
+Bio-A (Aminoacidos),Arbol_067,4,193.61
+Bio-A (Aminoacidos),Arbol_067,5,197.72
+Bio-A (Aminoacidos),Arbol_068,1,215.53
+Bio-A (Aminoacidos),Arbol_068,2,210.16
+Bio-A (Aminoacidos),Arbol_068,3,202.72
+Bio-A (Aminoacidos),Arbol_068,4,208.07
+Bio-A (Aminoacidos),Arbol_068,5,203.72
+Bio-A (Aminoacidos),Arbol_069,1,208.6
+Bio-A (Aminoacidos),Arbol_069,2,214.97
+Bio-A (Aminoacidos),Arbol_069,3,222.04
+Bio-A (Aminoacidos),Arbol_069,4,212.65
+Bio-A (Aminoacidos),Arbol_069,5,206.16
+Bio-A (Aminoacidos),Arbol_070,1,211.47
+Bio-A (Aminoacidos),Arbol_070,2,217.21
+Bio-A (Aminoacidos),Arbol_070,3,214.44
+Bio-A (Aminoacidos),Arbol_070,4,209.9
+Bio-A (Aminoacidos),Arbol_070,5,209.85
+Bio-A (Aminoacidos),Arbol_071,1,197.17
+Bio-A (Aminoacidos),Arbol_071,2,192.33
+Bio-A (Aminoacidos),Arbol_071,3,195.05
+Bio-A (Aminoacidos),Arbol_071,4,187.65
+Bio-A (Aminoacidos),Arbol_071,5,189.7
+Bio-A (Aminoacidos),Arbol_072,1,202.6
+Bio-A (Aminoacidos),Arbol_072,2,220.61
+Bio-A (Aminoacidos),Arbol_072,3,208.35
+Bio-A (Aminoacidos),Arbol_072,4,194.05
+Bio-A (Aminoacidos),Arbol_072,5,202.04
+Bio-A (Aminoacidos),Arbol_073,1,210.35
+Bio-A (Aminoacidos),Arbol_073,2,200.64
+Bio-A (Aminoacidos),Arbol_073,3,192.34
+Bio-A (Aminoacidos),Arbol_073,4,188.0
+Bio-A (Aminoacidos),Arbol_073,5,191.41
+Bio-A (Aminoacidos),Arbol_074,1,207.46
+Bio-A (Aminoacidos),Arbol_074,2,204.92
+Bio-A (Aminoacidos),Arbol_074,3,209.44
+Bio-A (Aminoacidos),Arbol_074,4,206.14
+Bio-A (Aminoacidos),Arbol_074,5,190.55
+Bio-A (Aminoacidos),Arbol_075,1,200.43
+Bio-A (Aminoacidos),Arbol_075,2,192.54
+Bio-A (Aminoacidos),Arbol_075,3,205.23
+Bio-A (Aminoacidos),Arbol_075,4,196.59
+Bio-A (Aminoacidos),Arbol_075,5,203.86
+Bio-A (Aminoacidos),Arbol_076,1,201.87
+Bio-A (Aminoacidos),Arbol_076,2,218.58
+Bio-A (Aminoacidos),Arbol_076,3,206.94
+Bio-A (Aminoacidos),Arbol_076,4,217.35
+Bio-A (Aminoacidos),Arbol_076,5,230.42
+Bio-A (Aminoacidos),Arbol_077,1,199.46
+Bio-A (Aminoacidos),Arbol_077,2,196.39
+Bio-A (Aminoacidos),Arbol_077,3,188.8
+Bio-A (Aminoacidos),Arbol_077,4,195.45
+Bio-A (Aminoacidos),Arbol_077,5,197.34
+Bio-A (Aminoacidos),Arbol_078,1,213.28
+Bio-A (Aminoacidos),Arbol_078,2,210.27
+Bio-A (Aminoacidos),Arbol_078,3,198.04
+Bio-A (Aminoacidos),Arbol_078,4,207.56
+Bio-A (Aminoacidos),Arbol_078,5,212.83
+Bio-A (Aminoacidos),Arbol_079,1,204.32
+Bio-A (Aminoacidos),Arbol_079,2,192.7
+Bio-A (Aminoacidos),Arbol_079,3,199.6
+Bio-A (Aminoacidos),Arbol_079,4,202.98
+Bio-A (Aminoacidos),Arbol_079,5,192.69
+Bio-A (Aminoacidos),Arbol_080,1,177.78
+Bio-A (Aminoacidos),Arbol_080,2,180.46
+Bio-A (Aminoacidos),Arbol_080,3,171.67
+Bio-A (Aminoacidos),Arbol_080,4,178.78
+Bio-A (Aminoacidos),Arbol_080,5,184.46
+Bio-A (Aminoacidos),Arbol_081,1,211.2
+Bio-A (Aminoacidos),Arbol_081,2,211.81
+Bio-A (Aminoacidos),Arbol_081,3,208.38
+Bio-A (Aminoacidos),Arbol_081,4,206.59
+Bio-A (Aminoacidos),Arbol_081,5,215.2
+Bio-A (Aminoacidos),Arbol_082,1,218.77
+Bio-A (Aminoacidos),Arbol_082,2,212.38
+Bio-A (Aminoacidos),Arbol_082,3,217.9
+Bio-A (Aminoacidos),Arbol_082,4,207.67
+Bio-A (Aminoacidos),Arbol_082,5,220.89
+Bio-A (Aminoacidos),Arbol_083,1,177.22
+Bio-A (Aminoacidos),Arbol_083,2,176.85
+Bio-A (Aminoacidos),Arbol_083,3,186.12
+Bio-A (Aminoacidos),Arbol_083,4,189.47
+Bio-A (Aminoacidos),Arbol_083,5,195.03
+Bio-A (Aminoacidos),Arbol_084,1,189.19
+Bio-A (Aminoacidos),Arbol_084,2,182.97
+Bio-A (Aminoacidos),Arbol_084,3,198.83
+Bio-A (Aminoacidos),Arbol_084,4,188.12
+Bio-A (Aminoacidos),Arbol_084,5,198.73
+Bio-A (Aminoacidos),Arbol_085,1,168.86
+Bio-A (Aminoacidos),Arbol_085,2,162.96
+Bio-A (Aminoacidos),Arbol_085,3,171.32
+Bio-A (Aminoacidos),Arbol_085,4,167.33
+Bio-A (Aminoacidos),Arbol_085,5,165.75
+Bio-A (Aminoacidos),Arbol_086,1,193.81
+Bio-A (Aminoacidos),Arbol_086,2,194.39
+Bio-A (Aminoacidos),Arbol_086,3,190.71
+Bio-A (Aminoacidos),Arbol_086,4,194.84
+Bio-A (Aminoacidos),Arbol_086,5,214.42
+Bio-A (Aminoacidos),Arbol_087,1,185.77
+Bio-A (Aminoacidos),Arbol_087,2,197.69
+Bio-A (Aminoacidos),Arbol_087,3,188.28
+Bio-A (Aminoacidos),Arbol_087,4,188.4
+Bio-A (Aminoacidos),Arbol_087,5,199.27
+Bio-A (Aminoacidos),Arbol_088,1,201.45
+Bio-A (Aminoacidos),Arbol_088,2,209.48
+Bio-A (Aminoacidos),Arbol_088,3,205.27
+Bio-A (Aminoacidos),Arbol_088,4,203.48
+Bio-A (Aminoacidos),Arbol_088,5,214.95
+Bio-A (Aminoacidos),Arbol_089,1,181.77
+Bio-A (Aminoacidos),Arbol_089,2,184.16
+Bio-A (Aminoacidos),Arbol_089,3,178.73
+Bio-A (Aminoacidos),Arbol_089,4,184.37
+Bio-A (Aminoacidos),Arbol_089,5,180.77
+Bio-A (Aminoacidos),Arbol_090,1,207.36
+Bio-A (Aminoacidos),Arbol_090,2,203.98
+Bio-A (Aminoacidos),Arbol_090,3,202.49
+Bio-A (Aminoacidos),Arbol_090,4,206.61
+Bio-A (Aminoacidos),Arbol_090,5,208.39
+Bio-A (Aminoacidos),Arbol_091,1,181.28
+Bio-A (Aminoacidos),Arbol_091,2,180.66
+Bio-A (Aminoacidos),Arbol_091,3,177.78
+Bio-A (Aminoacidos),Arbol_091,4,191.83
+Bio-A (Aminoacidos),Arbol_091,5,195.58
+Bio-A (Aminoacidos),Arbol_092,1,193.85
+Bio-A (Aminoacidos),Arbol_092,2,181.02
+Bio-A (Aminoacidos),Arbol_092,3,185.83
+Bio-A (Aminoacidos),Arbol_092,4,186.93
+Bio-A (Aminoacidos),Arbol_092,5,181.64
+Bio-A (Aminoacidos),Arbol_093,1,190.34
+Bio-A (Aminoacidos),Arbol_093,2,194.38
+Bio-A (Aminoacidos),Arbol_093,3,178.04
+Bio-A (Aminoacidos),Arbol_093,4,200.51
+Bio-A (Aminoacidos),Arbol_093,5,200.58
+Bio-A (Aminoacidos),Arbol_094,1,189.85
+Bio-A (Aminoacidos),Arbol_094,2,190.09
+Bio-A (Aminoacidos),Arbol_094,3,206.21
+Bio-A (Aminoacidos),Arbol_094,4,188.87
+Bio-A (Aminoacidos),Arbol_094,5,197.56
+Bio-A (Aminoacidos),Arbol_095,1,216.36
+Bio-A (Aminoacidos),Arbol_095,2,210.39
+Bio-A (Aminoacidos),Arbol_095,3,214.71
+Bio-A (Aminoacidos),Arbol_095,4,212.91
+Bio-A (Aminoacidos),Arbol_095,5,212.22
+Bio-A (Aminoacidos),Arbol_096,1,215.06
+Bio-A (Aminoacidos),Arbol_096,2,229.8
+Bio-A (Aminoacidos),Arbol_096,3,224.77
+Bio-A (Aminoacidos),Arbol_096,4,207.2
+Bio-A (Aminoacidos),Arbol_096,5,223.68
+Bio-A (Aminoacidos),Arbol_097,1,207.43
+Bio-A (Aminoacidos),Arbol_097,2,213.59
+Bio-A (Aminoacidos),Arbol_097,3,205.27
+Bio-A (Aminoacidos),Arbol_097,4,217.66
+Bio-A (Aminoacidos),Arbol_097,5,213.08
+Bio-A (Aminoacidos),Arbol_098,1,187.07
+Bio-A (Aminoacidos),Arbol_098,2,190.75
+Bio-A (Aminoacidos),Arbol_098,3,189.91
+Bio-A (Aminoacidos),Arbol_098,4,194.14
+Bio-A (Aminoacidos),Arbol_098,5,190.51
+Bio-A (Aminoacidos),Arbol_099,1,183.37
+Bio-A (Aminoacidos),Arbol_099,2,192.55
+Bio-A (Aminoacidos),Arbol_099,3,181.35
+Bio-A (Aminoacidos),Arbol_099,4,178.83
+Bio-A (Aminoacidos),Arbol_099,5,188.95
+Bio-A (Aminoacidos),Arbol_100,1,194.54
+Bio-A (Aminoacidos),Arbol_100,2,174.54
+Bio-A (Aminoacidos),Arbol_100,3,179.38
+Bio-A (Aminoacidos),Arbol_100,4,180.18
+Bio-A (Aminoacidos),Arbol_100,5,180.6
+Bio-B (Ext. Algas),Arbol_101,1,177.72
+Bio-B (Ext. Algas),Arbol_101,2,174.23
+Bio-B (Ext. Algas),Arbol_101,3,175.84
+Bio-B (Ext. Algas),Arbol_101,4,169.76
+Bio-B (Ext. Algas),Arbol_101,5,170.91
+Bio-B (Ext. Algas),Arbol_102,1,205.5
+Bio-B (Ext. Algas),Arbol_102,2,205.78
+Bio-B (Ext. Algas),Arbol_102,3,204.09
+Bio-B (Ext. Algas),Arbol_102,4,196.28
+Bio-B (Ext. Algas),Arbol_102,5,202.07
+Bio-B (Ext. Algas),Arbol_103,1,209.62
+Bio-B (Ext. Algas),Arbol_103,2,205.62
+Bio-B (Ext. Algas),Arbol_103,3,208.29
+Bio-B (Ext. Algas),Arbol_103,4,208.4
+Bio-B (Ext. Algas),Arbol_103,5,207.04
+Bio-B (Ext. Algas),Arbol_104,1,172.26
+Bio-B (Ext. Algas),Arbol_104,2,178.98
+Bio-B (Ext. Algas),Arbol_104,3,180.87
+Bio-B (Ext. Algas),Arbol_104,4,163.36
+Bio-B (Ext. Algas),Arbol_104,5,178.82
+Bio-B (Ext. Algas),Arbol_105,1,196.69
+Bio-B (Ext. Algas),Arbol_105,2,188.59
+Bio-B (Ext. Algas),Arbol_105,3,186.32
+Bio-B (Ext. Algas),Arbol_105,4,199.72
+Bio-B (Ext. Algas),Arbol_105,5,197.3
+Bio-B (Ext. Algas),Arbol_106,1,177.68
+Bio-B (Ext. Algas),Arbol_106,2,177.06
+Bio-B (Ext. Algas),Arbol_106,3,180.37
+Bio-B (Ext. Algas),Arbol_106,4,179.48
+Bio-B (Ext. Algas),Arbol_106,5,182.63
+Bio-B (Ext. Algas),Arbol_107,1,231.46
+Bio-B (Ext. Algas),Arbol_107,2,233.25
+Bio-B (Ext. Algas),Arbol_107,3,228.87
+Bio-B (Ext. Algas),Arbol_107,4,228.61
+Bio-B (Ext. Algas),Arbol_107,5,224.58
+Bio-B (Ext. Algas),Arbol_108,1,194.52
+Bio-B (Ext. Algas),Arbol_108,2,192.87
+Bio-B (Ext. Algas),Arbol_108,3,201.43
+Bio-B (Ext. Algas),Arbol_108,4,211.12
+Bio-B (Ext. Algas),Arbol_108,5,195.69
+Bio-B (Ext. Algas),Arbol_109,1,225.15
+Bio-B (Ext. Algas),Arbol_109,2,225.97
+Bio-B (Ext. Algas),Arbol_109,3,226.15
+Bio-B (Ext. Algas),Arbol_109,4,225.85
+Bio-B (Ext. Algas),Arbol_109,5,221.82
+Bio-B (Ext. Algas),Arbol_110,1,205.21
+Bio-B (Ext. Algas),Arbol_110,2,215.54
+Bio-B (Ext. Algas),Arbol_110,3,208.83
+Bio-B (Ext. Algas),Arbol_110,4,224.26
+Bio-B (Ext. Algas),Arbol_110,5,227.55
+Bio-B (Ext. Algas),Arbol_111,1,207.51
+Bio-B (Ext. Algas),Arbol_111,2,216.76
+Bio-B (Ext. Algas),Arbol_111,3,205.93
+Bio-B (Ext. Algas),Arbol_111,4,207.53
+Bio-B (Ext. Algas),Arbol_111,5,206.21
+Bio-B (Ext. Algas),Arbol_112,1,193.52
+Bio-B (Ext. Algas),Arbol_112,2,196.71
+Bio-B (Ext. Algas),Arbol_112,3,196.34
+Bio-B (Ext. Algas),Arbol_112,4,193.66
+Bio-B (Ext. Algas),Arbol_112,5,189.6
+Bio-B (Ext. Algas),Arbol_113,1,192.46
+Bio-B (Ext. Algas),Arbol_113,2,194.15
+Bio-B (Ext. Algas),Arbol_113,3,184.79
+Bio-B (Ext. Algas),Arbol_113,4,192.34
+Bio-B (Ext. Algas),Arbol_113,5,189.15
+Bio-B (Ext. Algas),Arbol_114,1,212.03
+Bio-B (Ext. Algas),Arbol_114,2,207.37
+Bio-B (Ext. Algas),Arbol_114,3,204.25
+Bio-B (Ext. Algas),Arbol_114,4,212.44
+Bio-B (Ext. Algas),Arbol_114,5,231.1
+Bio-B (Ext. Algas),Arbol_115,1,204.88
+Bio-B (Ext. Algas),Arbol_115,2,188.73
+Bio-B (Ext. Algas),Arbol_115,3,187.24
+Bio-B (Ext. Algas),Arbol_115,4,199.78
+Bio-B (Ext. Algas),Arbol_115,5,188.04
+Bio-B (Ext. Algas),Arbol_116,1,207.71
+Bio-B (Ext. Algas),Arbol_116,2,198.32
+Bio-B (Ext. Algas),Arbol_116,3,198.7
+Bio-B (Ext. Algas),Arbol_116,4,193.49
+Bio-B (Ext. Algas),Arbol_116,5,189.74
+Bio-B (Ext. Algas),Arbol_117,1,209.96
+Bio-B (Ext. Algas),Arbol_117,2,206.13
+Bio-B (Ext. Algas),Arbol_117,3,213.16
+Bio-B (Ext. Algas),Arbol_117,4,217.46
+Bio-B (Ext. Algas),Arbol_117,5,212.12
+Bio-B (Ext. Algas),Arbol_118,1,198.71
+Bio-B (Ext. Algas),Arbol_118,2,212.5
+Bio-B (Ext. Algas),Arbol_118,3,211.55
+Bio-B (Ext. Algas),Arbol_118,4,215.41
+Bio-B (Ext. Algas),Arbol_118,5,222.36
+Bio-B (Ext. Algas),Arbol_119,1,199.68
+Bio-B (Ext. Algas),Arbol_119,2,193.78
+Bio-B (Ext. Algas),Arbol_119,3,204.54
+Bio-B (Ext. Algas),Arbol_119,4,197.21
+Bio-B (Ext. Algas),Arbol_119,5,192.39
+Bio-B (Ext. Algas),Arbol_120,1,195.63
+Bio-B (Ext. Algas),Arbol_120,2,182.08
+Bio-B (Ext. Algas),Arbol_120,3,182.83
+Bio-B (Ext. Algas),Arbol_120,4,196.92
+Bio-B (Ext. Algas),Arbol_120,5,189.13
+Bio-B (Ext. Algas),Arbol_121,1,198.93
+Bio-B (Ext. Algas),Arbol_121,2,203.81
+Bio-B (Ext. Algas),Arbol_121,3,199.55
+Bio-B (Ext. Algas),Arbol_121,4,201.21
+Bio-B (Ext. Algas),Arbol_121,5,197.96
+Bio-B (Ext. Algas),Arbol_122,1,201.57
+Bio-B (Ext. Algas),Arbol_122,2,196.64
+Bio-B (Ext. Algas),Arbol_122,3,187.1
+Bio-B (Ext. Algas),Arbol_122,4,188.96
+Bio-B (Ext. Algas),Arbol_122,5,200.92
+Bio-B (Ext. Algas),Arbol_123,1,183.08
+Bio-B (Ext. Algas),Arbol_123,2,182.22
+Bio-B (Ext. Algas),Arbol_123,3,187.55
+Bio-B (Ext. Algas),Arbol_123,4,169.13
+Bio-B (Ext. Algas),Arbol_123,5,186.52
+Bio-B (Ext. Algas),Arbol_124,1,195.18
+Bio-B (Ext. Algas),Arbol_124,2,200.14
+Bio-B (Ext. Algas),Arbol_124,3,193.81
+Bio-B (Ext. Algas),Arbol_124,4,214.11
+Bio-B (Ext. Algas),Arbol_124,5,197.44
+Bio-B (Ext. Algas),Arbol_125,1,220.75
+Bio-B (Ext. Algas),Arbol_125,2,221.92
+Bio-B (Ext. Algas),Arbol_125,3,215.1
+Bio-B (Ext. Algas),Arbol_125,4,219.28
+Bio-B (Ext. Algas),Arbol_125,5,224.52
+Bio-B (Ext. Algas),Arbol_126,1,175.53
+Bio-B (Ext. Algas),Arbol_126,2,184.17
+Bio-B (Ext. Algas),Arbol_126,3,187.68
+Bio-B (Ext. Algas),Arbol_126,4,189.4
+Bio-B (Ext. Algas),Arbol_126,5,189.1
+Bio-B (Ext. Algas),Arbol_127,1,169.06
+Bio-B (Ext. Algas),Arbol_127,2,187.8
+Bio-B (Ext. Algas),Arbol_127,3,172.26
+Bio-B (Ext. Algas),Arbol_127,4,173.38
+Bio-B (Ext. Algas),Arbol_127,5,166.54
+Bio-B (Ext. Algas),Arbol_128,1,188.59
+Bio-B (Ext. Algas),Arbol_128,2,176.89
+Bio-B (Ext. Algas),Arbol_128,3,188.38
+Bio-B (Ext. Algas),Arbol_128,4,200.7
+Bio-B (Ext. Algas),Arbol_128,5,177.22
+Bio-B (Ext. Algas),Arbol_129,1,220.78
+Bio-B (Ext. Algas),Arbol_129,2,218.96
+Bio-B (Ext. Algas),Arbol_129,3,240.93
+Bio-B (Ext. Algas),Arbol_129,4,224.26
+Bio-B (Ext. Algas),Arbol_129,5,212.56
+Bio-B (Ext. Algas),Arbol_130,1,210.45
+Bio-B (Ext. Algas),Arbol_130,2,204.7
+Bio-B (Ext. Algas),Arbol_130,3,215.07
+Bio-B (Ext. Algas),Arbol_130,4,211.31
+Bio-B (Ext. Algas),Arbol_130,5,210.79
+Bio-B (Ext. Algas),Arbol_131,1,197.63
+Bio-B (Ext. Algas),Arbol_131,2,196.36
+Bio-B (Ext. Algas),Arbol_131,3,206.72
+Bio-B (Ext. Algas),Arbol_131,4,206.49
+Bio-B (Ext. Algas),Arbol_131,5,191.53
+Bio-B (Ext. Algas),Arbol_132,1,201.16
+Bio-B (Ext. Algas),Arbol_132,2,205.85
+Bio-B (Ext. Algas),Arbol_132,3,200.09
+Bio-B (Ext. Algas),Arbol_132,4,209.1
+Bio-B (Ext. Algas),Arbol_132,5,204.34
+Bio-B (Ext. Algas),Arbol_133,1,198.89
+Bio-B (Ext. Algas),Arbol_133,2,198.61
+Bio-B (Ext. Algas),Arbol_133,3,189.72
+Bio-B (Ext. Algas),Arbol_133,4,188.91
+Bio-B (Ext. Algas),Arbol_133,5,204.4
+Bio-B (Ext. Algas),Arbol_134,1,194.96
+Bio-B (Ext. Algas),Arbol_134,2,181.41
+Bio-B (Ext. Algas),Arbol_134,3,184.59
+Bio-B (Ext. Algas),Arbol_134,4,200.27
+Bio-B (Ext. Algas),Arbol_134,5,187.54
+Bio-B (Ext. Algas),Arbol_135,1,188.65
+Bio-B (Ext. Algas),Arbol_135,2,194.27
+Bio-B (Ext. Algas),Arbol_135,3,200.37
+Bio-B (Ext. Algas),Arbol_135,4,192.71
+Bio-B (Ext. Algas),Arbol_135,5,193.78
+Bio-B (Ext. Algas),Arbol_136,1,178.54
+Bio-B (Ext. Algas),Arbol_136,2,178.85
+Bio-B (Ext. Algas),Arbol_136,3,190.24
+Bio-B (Ext. Algas),Arbol_136,4,188.63
+Bio-B (Ext. Algas),Arbol_136,5,175.08
+Bio-B (Ext. Algas),Arbol_137,1,202.82
+Bio-B (Ext. Algas),Arbol_137,2,200.81
+Bio-B (Ext. Algas),Arbol_137,3,204.64
+Bio-B (Ext. Algas),Arbol_137,4,200.03
+Bio-B (Ext. Algas),Arbol_137,5,208.99
+Bio-B (Ext. Algas),Arbol_138,1,192.47
+Bio-B (Ext. Algas),Arbol_138,2,205.53
+Bio-B (Ext. Algas),Arbol_138,3,191.36
+Bio-B (Ext. Algas),Arbol_138,4,197.3
+Bio-B (Ext. Algas),Arbol_138,5,203.78
+Bio-B (Ext. Algas),Arbol_139,1,205.54
+Bio-B (Ext. Algas),Arbol_139,2,211.45
+Bio-B (Ext. Algas),Arbol_139,3,202.93
+Bio-B (Ext. Algas),Arbol_139,4,210.3
+Bio-B (Ext. Algas),Arbol_139,5,209.91
+Bio-B (Ext. Algas),Arbol_140,1,192.08
+Bio-B (Ext. Algas),Arbol_140,2,176.18
+Bio-B (Ext. Algas),Arbol_140,3,179.75
+Bio-B (Ext. Algas),Arbol_140,4,179.77
+Bio-B (Ext. Algas),Arbol_140,5,170.16
+Bio-B (Ext. Algas),Arbol_141,1,205.1
+Bio-B (Ext. Algas),Arbol_141,2,194.61
+Bio-B (Ext. Algas),Arbol_141,3,199.9
+Bio-B (Ext. Algas),Arbol_141,4,199.04
+Bio-B (Ext. Algas),Arbol_141,5,191.53
+Bio-B (Ext. Algas),Arbol_142,1,194.68
+Bio-B (Ext. Algas),Arbol_142,2,192.71
+Bio-B (Ext. Algas),Arbol_142,3,189.25
+Bio-B (Ext. Algas),Arbol_142,4,196.33
+Bio-B (Ext. Algas),Arbol_142,5,200.88
+Bio-B (Ext. Algas),Arbol_143,1,226.23
+Bio-B (Ext. Algas),Arbol_143,2,220.4
+Bio-B (Ext. Algas),Arbol_143,3,225.81
+Bio-B (Ext. Algas),Arbol_143,4,220.84
+Bio-B (Ext. Algas),Arbol_143,5,225.62
+Bio-B (Ext. Algas),Arbol_144,1,177.66
+Bio-B (Ext. Algas),Arbol_144,2,178.0
+Bio-B (Ext. Algas),Arbol_144,3,171.99
+Bio-B (Ext. Algas),Arbol_144,4,170.01
+Bio-B (Ext. Algas),Arbol_144,5,182.92
+Bio-B (Ext. Algas),Arbol_145,1,195.66
+Bio-B (Ext. Algas),Arbol_145,2,182.04
+Bio-B (Ext. Algas),Arbol_145,3,209.05
+Bio-B (Ext. Algas),Arbol_145,4,198.11
+Bio-B (Ext. Algas),Arbol_145,5,177.09
+Bio-B (Ext. Algas),Arbol_146,1,209.22
+Bio-B (Ext. Algas),Arbol_146,2,207.42
+Bio-B (Ext. Algas),Arbol_146,3,216.77
+Bio-B (Ext. Algas),Arbol_146,4,205.67
+Bio-B (Ext. Algas),Arbol_146,5,212.7
+Bio-B (Ext. Algas),Arbol_147,1,216.5
+Bio-B (Ext. Algas),Arbol_147,2,227.42
+Bio-B (Ext. Algas),Arbol_147,3,218.25
+Bio-B (Ext. Algas),Arbol_147,4,220.4
+Bio-B (Ext. Algas),Arbol_147,5,239.43
+Bio-B (Ext. Algas),Arbol_148,1,205.99
+Bio-B (Ext. Algas),Arbol_148,2,205.69
+Bio-B (Ext. Algas),Arbol_148,3,199.41
+Bio-B (Ext. Algas),Arbol_148,4,202.55
+Bio-B (Ext. Algas),Arbol_148,5,203.53
+Bio-B (Ext. Algas),Arbol_149,1,204.86
+Bio-B (Ext. Algas),Arbol_149,2,203.8
+Bio-B (Ext. Algas),Arbol_149,3,204.54
+Bio-B (Ext. Algas),Arbol_149,4,208.76
+Bio-B (Ext. Algas),Arbol_149,5,197.8
+Bio-B (Ext. Algas),Arbol_150,1,203.1
+Bio-B (Ext. Algas),Arbol_150,2,194.33
+Bio-B (Ext. Algas),Arbol_150,3,201.04
+Bio-B (Ext. Algas),Arbol_150,4,192.17
+Bio-B (Ext. Algas),Arbol_150,5,203.55
+Bio-C (Ac. Humicos),Arbol_151,1,207.51
+Bio-C (Ac. Humicos),Arbol_151,2,200.88
+Bio-C (Ac. Humicos),Arbol_151,3,205.15
+Bio-C (Ac. Humicos),Arbol_151,4,213.98
+Bio-C (Ac. Humicos),Arbol_151,5,211.45
+Bio-C (Ac. Humicos),Arbol_152,1,215.36
+Bio-C (Ac. Humicos),Arbol_152,2,214.28
+Bio-C (Ac. Humicos),Arbol_152,3,223.67
+Bio-C (Ac. Humicos),Arbol_152,4,222.58
+Bio-C (Ac. Humicos),Arbol_152,5,206.95
+Bio-C (Ac. Humicos),Arbol_153,1,234.48
+Bio-C (Ac. Humicos),Arbol_153,2,227.15
+Bio-C (Ac. Humicos),Arbol_153,3,222.08
+Bio-C (Ac. Humicos),Arbol_153,4,235.84
+Bio-C (Ac. Humicos),Arbol_153,5,225.44
+Bio-C (Ac. Humicos),Arbol_154,1,241.15
+Bio-C (Ac. Humicos),Arbol_154,2,230.43
+Bio-C (Ac. Humicos),Arbol_154,3,231.45
+Bio-C (Ac. Humicos),Arbol_154,4,241.34
+Bio-C (Ac. Humicos),Arbol_154,5,242.23
+Bio-C (Ac. Humicos),Arbol_155,1,231.22
+Bio-C (Ac. Humicos),Arbol_155,2,222.21
+Bio-C (Ac. Humicos),Arbol_155,3,232.01
+Bio-C (Ac. Humicos),Arbol_155,4,228.04
+Bio-C (Ac. Humicos),Arbol_155,5,227.53
+Bio-C (Ac. Humicos),Arbol_156,1,222.59
+Bio-C (Ac. Humicos),Arbol_156,2,211.45
+Bio-C (Ac. Humicos),Arbol_156,3,207.15
+Bio-C (Ac. Humicos),Arbol_156,4,213.2
+Bio-C (Ac. Humicos),Arbol_156,5,210.84
+Bio-C (Ac. Humicos),Arbol_157,1,236.12
+Bio-C (Ac. Humicos),Arbol_157,2,238.92
+Bio-C (Ac. Humicos),Arbol_157,3,239.68
+Bio-C (Ac. Humicos),Arbol_157,4,229.75
+Bio-C (Ac. Humicos),Arbol_157,5,244.1
+Bio-C (Ac. Humicos),Arbol_158,1,225.73
+Bio-C (Ac. Humicos),Arbol_158,2,231.19
+Bio-C (Ac. Humicos),Arbol_158,3,215.79
+Bio-C (Ac. Humicos),Arbol_158,4,221.97
+Bio-C (Ac. Humicos),Arbol_158,5,211.55
+Bio-C (Ac. Humicos),Arbol_159,1,243.74
+Bio-C (Ac. Humicos),Arbol_159,2,238.5
+Bio-C (Ac. Humicos),Arbol_159,3,239.02
+Bio-C (Ac. Humicos),Arbol_159,4,238.65
+Bio-C (Ac. Humicos),Arbol_159,5,247.86
+Bio-C (Ac. Humicos),Arbol_160,1,243.34
+Bio-C (Ac. Humicos),Arbol_160,2,235.2
+Bio-C (Ac. Humicos),Arbol_160,3,241.22
+Bio-C (Ac. Humicos),Arbol_160,4,248.11
+Bio-C (Ac. Humicos),Arbol_160,5,241.78
+Bio-C (Ac. Humicos),Arbol_161,1,213.86
+Bio-C (Ac. Humicos),Arbol_161,2,203.42
+Bio-C (Ac. Humicos),Arbol_161,3,218.68
+Bio-C (Ac. Humicos),Arbol_161,4,208.82
+Bio-C (Ac. Humicos),Arbol_161,5,216.97
+Bio-C (Ac. Humicos),Arbol_162,1,221.74
+Bio-C (Ac. Humicos),Arbol_162,2,228.62
+Bio-C (Ac. Humicos),Arbol_162,3,240.35
+Bio-C (Ac. Humicos),Arbol_162,4,220.82
+Bio-C (Ac. Humicos),Arbol_162,5,224.39
+Bio-C (Ac. Humicos),Arbol_163,1,222.91
+Bio-C (Ac. Humicos),Arbol_163,2,216.23
+Bio-C (Ac. Humicos),Arbol_163,3,213.26
+Bio-C (Ac. Humicos),Arbol_163,4,204.17
+Bio-C (Ac. Humicos),Arbol_163,5,221.21
+Bio-C (Ac. Humicos),Arbol_164,1,215.64
+Bio-C (Ac. Humicos),Arbol_164,2,206.29
+Bio-C (Ac. Humicos),Arbol_164,3,205.76
+Bio-C (Ac. Humicos),Arbol_164,4,224.21
+Bio-C (Ac. Humicos),Arbol_164,5,219.68
+Bio-C (Ac. Humicos),Arbol_165,1,217.08
+Bio-C (Ac. Humicos),Arbol_165,2,224.59
+Bio-C (Ac. Humicos),Arbol_165,3,229.79
+Bio-C (Ac. Humicos),Arbol_165,4,226.71
+Bio-C (Ac. Humicos),Arbol_165,5,232.38
+Bio-C (Ac. Humicos),Arbol_166,1,253.1
+Bio-C (Ac. Humicos),Arbol_166,2,263.29
+Bio-C (Ac. Humicos),Arbol_166,3,258.85
+Bio-C (Ac. Humicos),Arbol_166,4,249.27
+Bio-C (Ac. Humicos),Arbol_166,5,257.2
+Bio-C (Ac. Humicos),Arbol_167,1,245.69
+Bio-C (Ac. Humicos),Arbol_167,2,245.92
+Bio-C (Ac. Humicos),Arbol_167,3,227.65
+Bio-C (Ac. Humicos),Arbol_167,4,224.31
+Bio-C (Ac. Humicos),Arbol_167,5,231.1
+Bio-C (Ac. Humicos),Arbol_168,1,212.68
+Bio-C (Ac. Humicos),Arbol_168,2,206.38
+Bio-C (Ac. Humicos),Arbol_168,3,206.47
+Bio-C (Ac. Humicos),Arbol_168,4,203.26
+Bio-C (Ac. Humicos),Arbol_168,5,208.72
+Bio-C (Ac. Humicos),Arbol_169,1,215.38
+Bio-C (Ac. Humicos),Arbol_169,2,221.27
+Bio-C (Ac. Humicos),Arbol_169,3,211.97
+Bio-C (Ac. Humicos),Arbol_169,4,221.81
+Bio-C (Ac. Humicos),Arbol_169,5,225.02
+Bio-C (Ac. Humicos),Arbol_170,1,211.45
+Bio-C (Ac. Humicos),Arbol_170,2,240.35
+Bio-C (Ac. Humicos),Arbol_170,3,212.27
+Bio-C (Ac. Humicos),Arbol_170,4,217.75
+Bio-C (Ac. Humicos),Arbol_170,5,218.86
+Bio-C (Ac. Humicos),Arbol_171,1,228.05
+Bio-C (Ac. Humicos),Arbol_171,2,209.44
+Bio-C (Ac. Humicos),Arbol_171,3,224.11
+Bio-C (Ac. Humicos),Arbol_171,4,226.5
+Bio-C (Ac. Humicos),Arbol_171,5,221.27
+Bio-C (Ac. Humicos),Arbol_172,1,210.57
+Bio-C (Ac. Humicos),Arbol_172,2,216.51
+Bio-C (Ac. Humicos),Arbol_172,3,215.56
+Bio-C (Ac. Humicos),Arbol_172,4,212.97
+Bio-C (Ac. Humicos),Arbol_172,5,215.51
+Bio-C (Ac. Humicos),Arbol_173,1,239.18
+Bio-C (Ac. Humicos),Arbol_173,2,234.53
+Bio-C (Ac. Humicos),Arbol_173,3,233.06
+Bio-C (Ac. Humicos),Arbol_173,4,240.87
+Bio-C (Ac. Humicos),Arbol_173,5,252.59
+Bio-C (Ac. Humicos),Arbol_174,1,217.91
+Bio-C (Ac. Humicos),Arbol_174,2,217.55
+Bio-C (Ac. Humicos),Arbol_174,3,209.24
+Bio-C (Ac. Humicos),Arbol_174,4,215.23
+Bio-C (Ac. Humicos),Arbol_174,5,214.52
+Bio-C (Ac. Humicos),Arbol_175,1,232.63
+Bio-C (Ac. Humicos),Arbol_175,2,223.42
+Bio-C (Ac. Humicos),Arbol_175,3,226.92
+Bio-C (Ac. Humicos),Arbol_175,4,217.51
+Bio-C (Ac. Humicos),Arbol_175,5,231.72
+Bio-C (Ac. Humicos),Arbol_176,1,242.44
+Bio-C (Ac. Humicos),Arbol_176,2,233.87
+Bio-C (Ac. Humicos),Arbol_176,3,250.36
+Bio-C (Ac. Humicos),Arbol_176,4,234.43
+Bio-C (Ac. Humicos),Arbol_176,5,232.95
+Bio-C (Ac. Humicos),Arbol_177,1,212.83
+Bio-C (Ac. Humicos),Arbol_177,2,213.48
+Bio-C (Ac. Humicos),Arbol_177,3,207.5
+Bio-C (Ac. Humicos),Arbol_177,4,206.85
+Bio-C (Ac. Humicos),Arbol_177,5,213.64
+Bio-C (Ac. Humicos),Arbol_178,1,235.52
+Bio-C (Ac. Humicos),Arbol_178,2,226.74
+Bio-C (Ac. Humicos),Arbol_178,3,239.38
+Bio-C (Ac. Humicos),Arbol_178,4,224.9
+Bio-C (Ac. Humicos),Arbol_178,5,232.56
+Bio-C (Ac. Humicos),Arbol_179,1,228.48
+Bio-C (Ac. Humicos),Arbol_179,2,243.47
+Bio-C (Ac. Humicos),Arbol_179,3,227.55
+Bio-C (Ac. Humicos),Arbol_179,4,235.49
+Bio-C (Ac. Humicos),Arbol_179,5,234.69
+Bio-C (Ac. Humicos),Arbol_180,1,228.96
+Bio-C (Ac. Humicos),Arbol_180,2,214.36
+Bio-C (Ac. Humicos),Arbol_180,3,209.9
+Bio-C (Ac. Humicos),Arbol_180,4,221.17
+Bio-C (Ac. Humicos),Arbol_180,5,225.96
+Bio-C (Ac. Humicos),Arbol_181,1,226.83
+Bio-C (Ac. Humicos),Arbol_181,2,219.6
+Bio-C (Ac. Humicos),Arbol_181,3,228.67
+Bio-C (Ac. Humicos),Arbol_181,4,223.84
+Bio-C (Ac. Humicos),Arbol_181,5,234.59
+Bio-C (Ac. Humicos),Arbol_182,1,216.95
+Bio-C (Ac. Humicos),Arbol_182,2,228.58
+Bio-C (Ac. Humicos),Arbol_182,3,215.94
+Bio-C (Ac. Humicos),Arbol_182,4,214.09
+Bio-C (Ac. Humicos),Arbol_182,5,221.75
+Bio-C (Ac. Humicos),Arbol_183,1,209.28
+Bio-C (Ac. Humicos),Arbol_183,2,205.28
+Bio-C (Ac. Humicos),Arbol_183,3,216.0
+Bio-C (Ac. Humicos),Arbol_183,4,211.05
+Bio-C (Ac. Humicos),Arbol_183,5,218.58
+Bio-C (Ac. Humicos),Arbol_184,1,261.77
+Bio-C (Ac. Humicos),Arbol_184,2,248.19
+Bio-C (Ac. Humicos),Arbol_184,3,255.6
+Bio-C (Ac. Humicos),Arbol_184,4,250.89
+Bio-C (Ac. Humicos),Arbol_184,5,251.75
+Bio-C (Ac. Humicos),Arbol_185,1,229.32
+Bio-C (Ac. Humicos),Arbol_185,2,234.77
+Bio-C (Ac. Humicos),Arbol_185,3,234.92
+Bio-C (Ac. Humicos),Arbol_185,4,241.31
+Bio-C (Ac. Humicos),Arbol_185,5,234.32
+Bio-C (Ac. Humicos),Arbol_186,1,217.49
+Bio-C (Ac. Humicos),Arbol_186,2,220.2
+Bio-C (Ac. Humicos),Arbol_186,3,209.24
+Bio-C (Ac. Humicos),Arbol_186,4,210.23
+Bio-C (Ac. Humicos),Arbol_186,5,210.21
+Bio-C (Ac. Humicos),Arbol_187,1,233.38
+Bio-C (Ac. Humicos),Arbol_187,2,218.35
+Bio-C (Ac. Humicos),Arbol_187,3,224.62
+Bio-C (Ac. Humicos),Arbol_187,4,213.25
+Bio-C (Ac. Humicos),Arbol_187,5,230.87
+Bio-C (Ac. Humicos),Arbol_188,1,227.5
+Bio-C (Ac. Humicos),Arbol_188,2,219.9
+Bio-C (Ac. Humicos),Arbol_188,3,220.04
+Bio-C (Ac. Humicos),Arbol_188,4,212.16
+Bio-C (Ac. Humicos),Arbol_188,5,219.6
+Bio-C (Ac. Humicos),Arbol_189,1,204.17
+Bio-C (Ac. Humicos),Arbol_189,2,209.94
+Bio-C (Ac. Humicos),Arbol_189,3,196.94
+Bio-C (Ac. Humicos),Arbol_189,4,200.44
+Bio-C (Ac. Humicos),Arbol_189,5,200.53
+Bio-C (Ac. Humicos),Arbol_190,1,226.26
+Bio-C (Ac. Humicos),Arbol_190,2,216.71
+Bio-C (Ac. Humicos),Arbol_190,3,211.83
+Bio-C (Ac. Humicos),Arbol_190,4,215.65
+Bio-C (Ac. Humicos),Arbol_190,5,201.15
+Bio-C (Ac. Humicos),Arbol_191,1,228.61
+Bio-C (Ac. Humicos),Arbol_191,2,213.85
+Bio-C (Ac. Humicos),Arbol_191,3,223.46
+Bio-C (Ac. Humicos),Arbol_191,4,227.81
+Bio-C (Ac. Humicos),Arbol_191,5,220.65
+Bio-C (Ac. Humicos),Arbol_192,1,228.43
+Bio-C (Ac. Humicos),Arbol_192,2,233.42
+Bio-C (Ac. Humicos),Arbol_192,3,232.44
+Bio-C (Ac. Humicos),Arbol_192,4,234.28
+Bio-C (Ac. Humicos),Arbol_192,5,234.91
+Bio-C (Ac. Humicos),Arbol_193,1,208.97
+Bio-C (Ac. Humicos),Arbol_193,2,215.09
+Bio-C (Ac. Humicos),Arbol_193,3,209.85
+Bio-C (Ac. Humicos),Arbol_193,4,204.83
+Bio-C (Ac. Humicos),Arbol_193,5,220.76
+Bio-C (Ac. Humicos),Arbol_194,1,244.13
+Bio-C (Ac. Humicos),Arbol_194,2,240.89
+Bio-C (Ac. Humicos),Arbol_194,3,238.59
+Bio-C (Ac. Humicos),Arbol_194,4,247.7
+Bio-C (Ac. Humicos),Arbol_194,5,252.37
+Bio-C (Ac. Humicos),Arbol_195,1,207.86
+Bio-C (Ac. Humicos),Arbol_195,2,199.77
+Bio-C (Ac. Humicos),Arbol_195,3,199.59
+Bio-C (Ac. Humicos),Arbol_195,4,197.15
+Bio-C (Ac. Humicos),Arbol_195,5,204.87
+Bio-C (Ac. Humicos),Arbol_196,1,237.92
+Bio-C (Ac. Humicos),Arbol_196,2,218.78
+Bio-C (Ac. Humicos),Arbol_196,3,229.17
+Bio-C (Ac. Humicos),Arbol_196,4,228.21
+Bio-C (Ac. Humicos),Arbol_196,5,231.1
+Bio-C (Ac. Humicos),Arbol_197,1,196.08
+Bio-C (Ac. Humicos),Arbol_197,2,198.3
+Bio-C (Ac. Humicos),Arbol_197,3,196.25
+Bio-C (Ac. Humicos),Arbol_197,4,209.77
+Bio-C (Ac. Humicos),Arbol_197,5,205.79
+Bio-C (Ac. Humicos),Arbol_198,1,232.87
+Bio-C (Ac. Humicos),Arbol_198,2,234.95
+Bio-C (Ac. Humicos),Arbol_198,3,238.42
+Bio-C (Ac. Humicos),Arbol_198,4,242.32
+Bio-C (Ac. Humicos),Arbol_198,5,228.19
+Bio-C (Ac. Humicos),Arbol_199,1,215.55
+Bio-C (Ac. Humicos),Arbol_199,2,211.0
+Bio-C (Ac. Humicos),Arbol_199,3,221.47
+Bio-C (Ac. Humicos),Arbol_199,4,219.04
+Bio-C (Ac. Humicos),Arbol_199,5,214.96
+Bio-C (Ac. Humicos),Arbol_200,1,231.89
+Bio-C (Ac. Humicos),Arbol_200,2,233.09
+Bio-C (Ac. Humicos),Arbol_200,3,223.47
+Bio-C (Ac. Humicos),Arbol_200,4,226.89
+Bio-C (Ac. Humicos),Arbol_200,5,225.61
