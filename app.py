@@ -426,7 +426,7 @@ if df is not None:
                         'Método de estimación',
                         'Número de observaciones',
                         'Número de grupos (árboles)',
-                        'Log-Likelihood',
+                        #'Log-Likelihood',
                         'AIC',
                         'BIC',
                         'Convergencia'
@@ -436,7 +436,7 @@ if df is not None:
                         'REML',
                         f"{resultado_jerarquico.nobs:.0f}",
                         f"{df_modelo['Arbol_ID'].nunique()}",
-                        f"{resultado_jerarquico.llf:.2f}",
+                        #f"{resultado_jerarquico.llf:.2f}",
                         f"{resultado_jerarquico.aic:.2f}",
                         f"{resultado_jerarquico.bic:.2f}",
                         'Sí' if resultado_jerarquico.converged else 'No'
