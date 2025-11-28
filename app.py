@@ -385,8 +385,8 @@ if df is not None:
                 with col2:
                     st.subheader("Descomposición de la Varianza Total")
                     varianzas = [var_arboles, var_residual]
-                    labels = [f'Entre Árboles: {prop_var_arboles:.1%}', 
-                            f'Residual: {(1-prop_var_arboles):.1%}']
+                    labels = [f'Entre Árboles:', 
+                            f'Residual:']
                     colors = ['#FF6B6B', '#4ECDC4']
                     
                     fig = px.pie(
